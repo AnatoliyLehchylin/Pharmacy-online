@@ -8,7 +8,6 @@ import ReviewForm from './components/ReviewForm';
 const ProductCardReviews = ({ productItem }) => {
   const isAuth = useSelector(state => state.user.isAuth);
 
-
   return (
     <Box>
       <Box>
